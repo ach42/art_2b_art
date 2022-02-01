@@ -5,43 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-1.8.3.min.js" integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <section id="up">
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+    <main>
+    <div data-relative-input="true" id="scene">
+        <div class="card1"data-depth="0.6">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card1" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card2" data-depth="0.6">
+            <img src="./img/rea_1.png">
         </div>
-    </section>
-    <section class="center">
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card2" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img id="center" src="./img/logo.jpg">
+        <div class="card3" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card3" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-    </section>
-    <section id="bottom">
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card4" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card4" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-        <div class="card">
-            <img src="./img/C041E2DB-036F-438B-A694-2EE7A3B94588.jpeg">
+        <div class="card5" data-depth="0.9">
+            <img src="./img/rea_1.png">
         </div>
-    </section>
+        <div class="card5" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card6" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card6" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card7" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card7" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card8" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card8" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card9" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card9" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card10" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+        <div class="card10" data-depth="0.9">
+            <img src="./img/rea_1.png">
+        </div>
+    </div>
+    </main>
+<script>
+    var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene, {
+  relativeInput: true
+});
+</script>
 <script src="./js/nav.js"></script> 
 </body>
 </html>

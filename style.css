@@ -4,6 +4,14 @@
 }
 body {
     background-color: #000;
+    padding: 3%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 4000px;
+    height: 3000px;
+    -webkit-box-shadow: inset 0px 0px 0px 10px rgba(172,250,28,1);
+    -moz-box-shadow: inset 0px 0px 0px 10px rgba(172,250,28,1);
+    box-shadow: inset 0px 0px 0px 10px rgba(172,250,28,1);
 }
 .welcome {
   display: flex;
@@ -24,12 +32,54 @@ body {
   text-align: right;
   bottom: 0;
 }
-#up {
+main {
   display: flex;
 }
-.center {
+#scene {
   display: flex;
+  margin: 2%;
 }
-#bottom {
-  display: flex;
+
+img {
+  width: 400px;
+  height: 400px;
+}
+.card1 {
+  
+}
+.card2 {
+  left: 646px !important;
+  top: 263px !important;
+}
+.card3 {
+  left: 1353px!important;
+  top: 386px!important;
+}
+.card4 {
+  left: 1953px!important;
+  top: 0px!important;
+}
+.card5 {
+  left: 2300px!important;
+  top: 800px!important;
+}
+.card6 {
+  left: 2900px!important;
+  top: 1000px!important;
+}
+.card7 {
+  left: 3900px!important;
+  top: 2000px!important;
+}
+.card8 {
+  left: 3000px!important;
+  top: 900px!important;
+}
+.card9 {
+  left: 3700px!important;
+  top: 1200px!important;
+}
+.card10 {
+  left: 3900px!important;
+  top: 1900px!important;
 }
