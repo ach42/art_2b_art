@@ -3,11 +3,26 @@
     padding: 0;
 }
 body {
-    background-color: #fff;
-    box-sizing: border-box;
+    background-color: #000;
 }
-p {
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50vh;
   color: #fff;
+}
+.enter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40vh;
+}
+.logo {
+  position: sticky;
+  text-align: right;
+  bottom: 0;
 }
 #up {
   display: flex;
