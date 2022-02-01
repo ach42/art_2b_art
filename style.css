@@ -4,7 +4,6 @@
 }
 body {
     background-color: #000;
-    padding: 3%;
     overflow-y: hidden;
     overflow-x: hidden;
     width: 4000px;
@@ -34,6 +33,7 @@ body {
 }
 main {
   display: flex;
+  height: 100%;
 }
 #scene {
   display: flex;
@@ -45,15 +45,16 @@ img {
   height: 400px;
 }
 .card1 {
-  
+  left: 0px !important;
+  top: 0px !important;
 }
 .card2 {
-  left: 646px !important;
-  top: 263px !important;
+  left: 0px !important;
+  top: 750px !important;
 }
 .card3 {
-  left: 1353px!important;
-  top: 386px!important;
+  left: 0px!important;
+  top: 1500px!important;
 }
 .card4 {
   left: 1953px!important;
